@@ -1,5 +1,6 @@
 from PyPDF2 import PdfFileReader, PdfFileWriter
 import docx
+import numpy
 x=open("keywordFile.txt","r")
 keywords=x.read().split()
 myFile=open("JavaBasicnotes.pdf","rb")
